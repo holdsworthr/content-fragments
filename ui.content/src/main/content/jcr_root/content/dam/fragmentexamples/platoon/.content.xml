@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="37110a90-3d8a-4d47-8643-5a28211f35d0">
+    <jcr:content
+        cq:name="platoon"
+        cq:parentPath="/content/dam/fragmentexamples"
+        jcr:description=""
+        jcr:lastModified="{Date}2019-10-17T08:13:20.883+01:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Platoon"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2019-10-17T08:13:20.883+01:00">
+        <data
+            cq:model="/conf/fragmentexamples/settings/dam/cfm/models/movie"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                description="Test description"
+                description_x0040_LastModified="{Date}2019-10-17T08:13:20.871+01:00"
+                heroImage="/content/dam/fragmentexamples/asset.jpg"
+                heroImage_x0040_LastModified="{Date}2019-10-17T08:13:20.871+01:00"
+                releaseDate="{Date}2019-10-04T08:12:00.000+01:00"
+                releaseDate_x0040_LastModified="{Date}2019-10-17T08:13:20.871+01:00"
+                title="Platoon"
+                title_x0040_LastModified="{Date}2019-10-17T08:13:20.871+01:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
