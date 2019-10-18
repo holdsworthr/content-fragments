@@ -3,6 +3,8 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[/etc/mobile/groups/responsive]"
+        cq:lastModified="{Date}2019-10-17T08:47:08.787+01:00"
+        cq:lastModifiedBy="admin"
         cq:template="/conf/fragmentexamples/settings/wcm/templates/content-page"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="fragmentexamples/components/structure/page">
@@ -26,6 +28,7 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="fragmentexamples/components/content/breadcrumb"/>
             <responsivegrid
+                cq:styleIds="[1571298390915]"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid"
                 editable="{Boolean}true">
